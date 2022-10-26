@@ -3,11 +3,11 @@ import DarkModeSwitch from "./DarkModeSwitch";
 
 const Header = () => {
   return (
-    <header className="fixed top-0 flex justify-between items-center w-full h-24 py-4 px-8 bg-white dark:bg-zinc-900 border">
+    <header className="flex justify-between items-center w-full max-w-screen-md h-24 p-8 mb-24">
       <Nav />
       <div className="flex items-center">
         <DarkModeSwitch />
-        <span>Logo</span>
+        <span>yunsu</span>
       </div>
     </header>
   );

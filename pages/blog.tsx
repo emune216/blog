@@ -3,7 +3,7 @@ import type { NextPage } from "next";
 const Tech: NextPage = () => {
   return (
     <>
-      <div>TECH!</div>
+      <div>Blog!</div>
     </>
   );
 };
